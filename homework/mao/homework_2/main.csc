@@ -37,6 +37,7 @@ while !app.is_closed()
 
             begin_window("提示 ",window_opened1 ,{flags.always_auto_resize,flags.no_collapse}) 
             set_window_size(vec2(800,400))  
+            set_window_focus()
             if window_opened1==false
                 button_flag=false
                 window_opened1=true                
